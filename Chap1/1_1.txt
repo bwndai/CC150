@@ -19,3 +19,5 @@ return true;
 5. I feel if the ASCII must be unique??
 
 6. From the solution, cannot use additional data structures doesn't mean you can't use extra space.
+
+7. Attention: from the book , we need to question, if the character set is ASCII or Unicode !!!
