@@ -1,0 +1,21 @@
+1.1 Implement an algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
+
+Thoughts:
+1. if data structures are allowed, we can use dictionary/hashtable to implement this algorithm
+
+2. sort the input string, and compare a pair of chars from beginning to end, use following code snippet
+// based on the assumption that the string is sorted
+// n is length of string
+for (i = 0; i <= n - 2; i++){
+	if (str[i] == str[i + 1])
+		return false;
+}
+return true;
+
+3. The question claims that the string must have unique characters, which means other than 'a'-'z' or 'A' - 'Z', are not allowed(false).
+
+4. But are 'a' and 'A' considerred as the same or different??
+
+5. I feel if the ASCII must be unique??
+
+6. From the solution, cannot use additional data structures doesn't mean you can't use extra space.
