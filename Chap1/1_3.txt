@@ -1,0 +1,27 @@
+Given two strings, write a method to decide if one is a permutation of the other.
+
+1. if two strings with different length, return False
+
+2. if two strings are identical, is it True??
+
+3. Use set, two set must have same length and same elements
+
+this might be wrong, 
+aab, abb
+This condition is wrong
+
+4. sort both of them, and compare these two sorted strings. 
+
+5. hints from the book
+are the strings case sensitive??
+how about white spaces??
+
+6. Implementation in java
+public class Solution(){
+	public String sort(String str){
+
+	}
+	public boolean isPermutations(String s1, String s2){
+	
+	}
+}
