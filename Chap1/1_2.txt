@@ -1,0 +1,14 @@
+Implement a function void reverse (char* str) in C or C++ which reverses a null-terminated string.
+
+1. Find the end point of the string, and swap them one by one.
+
+2. //end is the last char in str
+while (str < end){
+	temp = *str;
+	*str = *end;
+	*end = temp;
+	str++;
+	end--;
+}
+
+3. One thing to remember, str might be null
