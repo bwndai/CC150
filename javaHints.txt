@@ -1,0 +1,10 @@
+// This file records all of those hints I feel might be useful
+// for those who just start learning JAVA, for example, me
+
+1. Sort a String
+//code snippet from CC 150
+String sort(String s){
+	char[] content = s.toCharArray();
+	java.util.Arrays.sort(content);
+	return new String(content);
+}
